@@ -15,6 +15,7 @@ body {
   border: solid;
   border-radius: 10px;
   background-color: #faebd6;
+  position: relative;
 }
 table {
   border: solid;
@@ -58,28 +59,28 @@ button {
   width: 300px;
 }
 #time {
-  position: relative;
+  position: absolute;
   top: -180px;
   font-weight: bold;
 }
 #vol {
   font-weight: bold;
   font-size: 10px;
-  position: relative;
+  position: absolute;
   top: -72px;
   right: -115px;
 }
 #timenow {
-  position: relative;
-  top: -185px;
+  position: absolute;
+  top: 15px;
+  right: 180px;
   font-family: cursive;
   font-size: 15px;
-  right: -90px;
 }
 #v {
-  position: relative;
-  top: -90px;
-  right: -143px;
+  position: absolute;
+  top: 115px;
+  right: 50px;
   font-size: 13px;
   font-family: cursive;
 }
